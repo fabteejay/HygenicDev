@@ -8,16 +8,25 @@
 
 <html lang="en">
 	<head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HygenicDev</title>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-
-		<link rel="stylesheet" href="css/style.css" />
+  <!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>HygenicDev - Hygenice Development.</title>
+<meta name="keywords" content="Portfolio, Company Website, Hygenic Development, HygenicDev, Olatunji Fabamise">
+<meta name="description" content="This is the home page of HygenicDev. A website development  Tech Company. That develop a good website.">
+<meta name="author" content="HygenicDev, Fabamise Olatunji, FabTeeJay">
+<!-- site icons -->
+<link rel="icon" href="images/logo.png" type="image/gif" />
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<!-- Site css -->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
 
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -33,7 +42,7 @@
 
 	</head>
 	<body>
-	<div class="svg-wrap">
+ 	<div class="svg-wrap">
       <svg width="64" height="64" viewBox="0 0 64 64">
         <path id="arrow-left" d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z"></path>
       </svg>
@@ -70,10 +79,9 @@
           <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#header">Home</a></li>
-              <li><a href="#about">About</a></li>              
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Service</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
-			  <li><a href="#team">Team</a></li>
-			  <li><a href="#info">Info</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -144,20 +152,20 @@
                             {
                               bigImage :"images/slide-1.jpg",
                               title : "Minimal & Clean",
-							  author : "Templatestock"
+							  author : "HygenicDev"
                             },
                             {
                               bigImage :"images/slide-2.jpg",
                               title : "I'm A Creative Theme",
-                              author : "Templatestock"
+                              author : "HygenicDev"
                             },
                             {
                               bigImage :"images/slide-3.jpg",
                               title : "Achieve Success",
-                              author : "Templatestock"
+                              author : "HygenicDev"
                             }
                         ],
-            loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 600, speedOut : 600, easingIn : mina.easeinout});
+            loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 1000, speedOut : 1000, easingIn : mina.easeinout});
             loaderSVG.show()
         </script>
 
@@ -172,49 +180,159 @@
     <section id="about" class="light">
       <header class="title">
         <h2>About <span>Us</span></h2>
-        <p>Lorem ipsum Esse esse cillum nisi cillum deserunt tempor ut pariatur qui officia. Lorem ipsum Magna eu irure sint <strong>occaecat</strong> cupidatat dolore minim irure cillum.</p>
+        <h3>The world has gone digital. <br> Don't be left out!</h3>
+        <p><a href="index.html"><strong>HygenicDev</strong></a>
+           specialize in world class website design and developing complex, secure and
+           scalable web base Applications.</p>
+           <p>I focus on helping businesses attain the apex of their achievements - by 
+             choosing online presence and giving maximum return on investment through online 
+             strategy and selling.</p>
+            <a href="about.html"><button class="btn btn-default submit abt">Read More</button></a>
+
       </header>
 
       <div class="container">
         <div class="row table-row">
           <div class="col-sm-6 hidden-xs">
             <div class="section-content">
-              <div class="big-image" style="background-image:url(images/1.png)"></div>
+              <div class="big-image" style="background-image:url(images/about-pic.png)"></div>
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="section-content">
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-code"></i></div>
+              <div class="title">
+              <h6><strong class="reason">WHY YOU MUST CHOOSE ME</strong></h6>
+              <h2>Here are 5 reasons why you must choose me.</h2>
+            </div>
+              <div class="about-content left animated" data-animate="fadeInRight"> <!-- data-animate="fadeInRight"  for falling in-->
+                <div class="about-icon"><i class="fa fa-recycle"></i></div>
                 <div class="about-detail">
-                  <h4>Clean Code</h4>
-                  <p>Lorem ipsum Ad nisi dolore ut sit do dolor commodo sint ullamco. Lorem ipsum Magna enim eu irure sit eiusmod fugiat et. Lorem ipsum Consequat in cupidatat cupidatat non in non veniam dolore.</p>
+                  <h4><span class="reason">Unlimited Project Revision</span></h4>
+                  <p>I understand <span> getting a website for your business</span> or embarking on branding
+                    is a very daunting process.
+                  I offer Unlimited project revision to ensure you are satisfied and happy with the project. </p>
                 </div>
               </div>
 
               <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-desktop"></i></div>
+                <div class="about-icon"><i class="fa fa-user"></i></div>
                 <div class="about-detail">
-                  <h4>Fully Responsive</h4>
-                  <p>Lorem ipsum Ex labore dolor magna in proident ad reprehenderit consequat irure nostrud quis. Lorem ipsum Veniam velit non cupidatat nulla et proident.</p>
+                  <h4><span class="reason">Customer Service</h4>
+                  <p>I strive to provide <span> superior customer service </span>and ensure that every client is completely 
+                    satisfied with my work. I offer quick response to messages and enquiries. {under 30minutes}</p>
                 </div>
               </div>
 
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-cube"></i></div>
+              <div class="about-content left animated" data-animate="rollIn">
+                  <div class="about-icon"><i class="fa fa-lock"></i></div>
+                  <div class="about-detail">
+                    <h4><span class="reason">Security</h4>
+                    <p>All my products were Secured from attackers, so you can
+                       rest assure that your informations were safed.</p>
+                  </div>
+                </div>
+
+              <div class="about-content left animated" data-animate="rotateInUpRight">
+                <div class="about-icon"><i class="fa fa-support"></i></div>
                 <div class="about-detail">
-                  <h4>Multipurpose Design</h4>
-                  <p>Lorem ipsum Ea quis sint sint aliquip qui exercitation commodo non cupidatat do reprehenderit dolor. Lorem ipsum Non et minim incididunt sed labore in amet ea est pariatur.</p>
+                  <h4><span class="reason">Support</h4>
+                  <p>I provide after service support at no extra charge. 
+                    So you can focus on your business and what matters to you.
+                  </p>
                 </div>
               </div>
+
+              <div class="about-content left animated" data-animate="rotateInUpLeft">
+                  <div class="about-icon"><i class="fa fa-magic"></i></div>
+                  <div class="about-detail">
+                    <h4><span class="reason">Expert Tips and Recommendations</h4>
+                    <p>I am committed to delivering outstanding, cutting edge IT Solutions that add real value to Your
+                      bussiness. I execute this by offering regular tips on how you can excel in the online space.
+                    </p>
+                  </div>
+                </div>
             </div>
           </div>
         </div> <!-- /.row table-row -->
       </div> <!-- /.container -->
     </section>
+
+    <!-- end of About-->
 	
-	
+    <!-- TEAM -->
+
+    <section id="service" class="light">
+      <header class="title">
+          <h6><strong class="reason">It's Beyond Website's</strong></h6>
+          <h2>my <span>digital</span> Services</h2>
+        <p>I combine my digial skills to promote your business and ultimately increase profit for your brand.</p>
+      </header>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                  <div class="service-icon"><i class="fa fa-laptop"></i></div>
+                </div>
+
+              <h2>Web Design</h2>
+
+                <p>Creating hygenic and user friendly interface is my target,
+                   I specialise in designing worldclass user interface that 
+                   fit directly, to your business demand.</p>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                  <div class="service-icon"><i class="fa fa-code"></i></div>
+              </div>
+
+              <h2>Web Development</h2>
+
+              <p>For businesses today, it’s not just about having a website. 
+                It's about having an effective, multifunctional portal that 
+                plays a crucial marketing role. Whether your business is B2B, B2C or both, your website should spearhead 
+                your Demand Acceleration by inviting, informing and engaging your target audience.</p>               
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                  <div class="service-icon"><i class="fa fa-line-chart"></i></div>
+              </div>
+
+              <h2>Digital Marketing</h2>
+
+              <p>At a high level, digital marketing refers to advertising delivered 
+                through digital channels such as search engines, websites, 
+                social media, email, and mobile apps. While this term covers a
+                 wide range of marketing activities.</p>           
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <div class="service-icon"><i class="fa fa-search-plus"></i></div>
+              </div>
+
+              <h2>SEO <span>Search Engine Optimization</span></h2>
+
+              <p>I specialise in making websites highly popular on Search 
+                Engines. I made adjustment to web pages, content and promote the
+                 content to help improve gthe visibility on Search Engine results.</p>          
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!-- /.container -->
+
+    </section>
 	    <!-- PORTFOLIO -->
 
     <section id="portfolio" class="light">
@@ -302,108 +420,6 @@
       </div>
     </section>
 
-
-    <!-- TEAM -->
-
-    <section id="team" class="light">
-      <header class="title">
-        <h2>Creative <span>Team</span></h2>
-        <p>Lorem ipsum Dolor et reprehenderit laborum deserunt aliquip incididunt tempor id non. Lorem ipsum Fugiat anim labore cupidatat consequat non in sit dolore anim anim consequat nisi.</p>
-      </header>
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown">
-              <div class="img-team">
-                <img src="images/team-1.png" alt="" class="img-circle">
-              </div>
-
-              <h3>John Doe</h3>
-              <h5>Creative Director</h5>
-
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="#" class="fa fa-twitter"></a></li>
-                  <li><a href="#" class="fa fa-linkedin"></a></li>
-                  <li><a href="#" class="fa fa-facebook"></a></li>
-                  <li><a href="#" class="fa fa-google-plus"></a></li>
-                </ul> 
-              </div>                
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown"> 
-              <div class="img-team">
-                <img src="images/team-2.png" alt="" class="img-circle">
-              </div>
-
-              <h3>Ellie Morgan</h3>
-              <h5>Designer</h5>
-
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="#" class="fa fa-twitter"></a></li>
-                  <li><a href="#" class="fa fa-linkedin"></a></li>
-                  <li><a href="#" class="fa fa-facebook"></a></li>
-                  <li><a href="#" class="fa fa-google-plus"></a></li>
-                </ul> 
-              </div>                
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown"> 
-              <div class="img-team">
-                <img src="images/team-3.png" alt="" class="img-circle">
-              </div>
-
-              <h3>Elche</h3>
-              <h5>Developer</h5>
-
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="#" class="fa fa-twitter"></a></li>
-                  <li><a href="#" class="fa fa-linkedin"></a></li>
-                  <li><a href="#" class="fa fa-facebook"></a></li>
-                  <li><a href="#" class="fa fa-google-plus"></a></li>
-                </ul> 
-              </div>                
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown"> 
-              <div class="img-team">
-                <img src="images/team-4.png" alt="" class="img-circle">
-              </div>
-
-              <h3>JF Thiago</h3>
-              <h5>Commerce</h5>
-
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="#" class="fa fa-twitter"></a></li>
-                  <li><a href="#" class="fa fa-linkedin"></a></li>
-                  <li><a href="#" class="fa fa-facebook"></a></li>
-                  <li><a href="#" class="fa fa-google-plus"></a></li>
-                </ul> 
-              </div>                
-            </div>
-          </div>
-        </div>
-      </div> <!-- /.container -->
-    </section>
-	
 	    <!-- INFO -->
 
     <section id="info" class="dark">
@@ -513,7 +529,7 @@
                   <input type="email" class="form-control" placeholder="Your Email">
                 </div>
                 <div class="col-md-12">
-                  <textarea class="form-control" rows="3" placeholder="Tell Us Everything"></textarea>
+                  <textarea class="form-control" rows="3" placeholder=""></textarea>
                 </div>
                 <div class="col-md-12">
                   <button class="btn btn-default submit">Send Message</button>
@@ -524,23 +540,34 @@
 
           <div class="col-md-4 animated" data-animate="fadeInRight">
             <address>
-                <span><i class="fa fa-map-marker fa-lg"></i> 84 State Road 123 City, State 24813</span>
-                <span><i class="fa fa-phone fa-lg"></i> (123) xxx - xxx</span>
-                <span><i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:contact@example.com">contact&#64;example.com</a></span>
-                <span><i class="fa fa-globe fa-lg"></i> <a href="http://support.example.com">support.example.com</a></span>
+                <span><i class="fa fa-map-marker fa-lg"></i> Ibadan, Lagos, Nigeria.</span>
+                <span><i class="fa fa-phone fa-lg"></i> +234 701 172 7611, +234 813 222 3243</span>
+                <span><i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:hygenicdev@gmail.com">customercare&#64;hygenicdev.com</a></span>
+                <span><i class="fa fa-globe fa-lg"></i> <a href="contact.html">support.hygenicdev.com</a></span>
             </address>
           </div>
+          <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+              </ul> 
+            </div>
+
 		  
         </div>
       </div>
     </section>
 
+    
     <section id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>Made BY <i class="fa fa-heart"></i> <a href="http://templatestock.co">Template Stock</a></p>
-            <p><small>Images : unsplash.com</small></p>
+            <p>&copy; Copyright
+              <script>document.write(new Date().getUTCFullYear());</script></p>
+            <p>Designed BY <i class="fa fa-thumbs-up"></i> <a href="index.html">HygenicDev</a></p>
           </div>
         </div>
       </div>

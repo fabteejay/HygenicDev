@@ -8,7 +8,7 @@
 
 ::-moz-selection { /* Code for Firefox */
   color: #fff;
-  background: #008ED6;
+||  background: #008ED6;
 }
 
 ::selection {
@@ -752,15 +752,12 @@ span.quot-name:before {
   padding: 0;
 }
 
-.img-circle {
-  border-radius: 50%;
+.service-icon {
+  font-size: 60px;
+  color: #00B2FF;
+  margin: 50px 0 0 0;
 }
 
-#team .wrap img {
-  border: 5px solid #EDEDED;
-  height: 150px;
-  width: 150px;
-}
 
 #team .wrap h3 {
   text-transform: uppercase;
@@ -1043,6 +1040,10 @@ textarea.form-control {
   color: #999;
   z-index: 1;
 }
+.btn.submit.abt{
+  color: #000;
+  font-weight: bolder;
+}
 
 .btn.submit:hover {
   color: #fff;
@@ -1084,6 +1085,16 @@ address span a:focus {
 
 address span a {
   text-decoration: underline;
+}
+.reason {
+  color: #008ED6;
+  font-family: cursive;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .btn-map {
